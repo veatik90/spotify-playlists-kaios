@@ -1,0 +1,36 @@
+{
+  "version": "1.0.0",
+  "name": "PDF viewer KaiOS",
+  "short_name": "PDF",
+  "description": "PDF viewer application for KaiOS",
+  "type": "web",
+  "launch_path": "/index.html",
+  "icons": {
+    "56": "logo/logo-56.png",
+    "112": "logo/logo-112.png"
+  },
+  "developer": {
+    "name": "DataArt",
+    "url": "www.dataart.com"
+  },
+  "locales": {
+    "en-US": {
+      "name": "PDF viewer KaiOS",
+      "subtitle": "PDF viewer application for KaiOS",
+      "description": "PDF viewer application for KaiOS"
+    }
+  },
+  "default_locale": "en-US",
+  "permissions": {
+    "geolocation": {
+      "description": "Required to set a location"
+    }
+  },
+  "datastores-owned": {
+    "userLocation": {
+      "access": "readwrite",
+      "description": "user location store"
+    }
+  },
+  "orientation": [ "portrait-primary" ]
+}

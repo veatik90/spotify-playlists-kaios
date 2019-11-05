@@ -1,0 +1,36 @@
+{
+  "version": "1.0.0",
+  "name": "Spotify Playlists KaiOS",
+  "short_name": "Spotify Playlists",
+  "description": "Spotify Playlists application for KaiOS",
+  "type": "privileged",
+  "launch_path": "/index.html",
+  "icons": {
+    "56": "/logo56.png",
+    "112": "/logo112.png"
+  },
+  "developer": {
+    "name": "DataArt",
+    "url": "www.dataart.com"
+  },
+  "locales": {
+    "en-US": {
+      "name": "Spotify Playlists KaiOS",
+      "subtitle": "Spotify Playlists application for KaiOS",
+      "description": "Spotify Playlists application for KaiOS"
+    }
+  },
+  "permissions": {
+    "spatialnavigation-app-manage": {}
+  },
+  "redirects": [
+    {
+      "from": "http://localhost:3000",
+      "to": "/index.html"
+    }
+  ],
+  "default_locale": "en-US",
+  "orientation": [ "portrait-primary" ],
+  "fullscreen": "true",
+  "origin": "app://mywebapp.com"
+}

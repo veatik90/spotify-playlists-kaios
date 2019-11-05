@@ -1,0 +1,22 @@
+{
+  "name": "spotify-playlists-kaios",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.19.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-svg": "^10.0.21",
+    "styled-components": "^4.3.2",
+    "typeface-roboto": "0.0.75"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.7"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build && rm -r /C/Users/ikitayev/workspace/kaios/shared/spotify-playlists-kaios && cp -r ./build /C/Users/ikitayev/workspace/kaios/shared/spotify-playlists-kaios",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
